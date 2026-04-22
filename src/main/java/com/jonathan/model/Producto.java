@@ -8,7 +8,7 @@ import lombok.Data;
 public class Producto {
     @Id // 3.- Le dice a la base  de datos este es el numero de identificacion unico
     @GeneratedValue(strategy= GenerationType.IDENTITY)// 4.,- EL ID se ira incrementado automaticamente
-    //Prueba git
+
     private Long id;
     private String nombre;
     private Double precio;
